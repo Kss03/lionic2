@@ -336,8 +336,41 @@
         </address>
       </div>
     </section>
-    <section id="join-us" class="join-us">
-
+    <section id="join-us" class="join-us section-offset">
+      <div class="container">
+        <h2 class="section-title join-us-title">Join us</h2>
+        <p class="section-descr">
+          Take control of your paid subscriptions today!
+        </p>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="join-us-form">
+          <div class="form-top flex">
+            <div class="form-left flex">
+              <input type="text" class="join-us-input" name="name" placeholder="Name" required>
+              <input type="email" class="join-us-input" name="email" placeholder="E-mail" required>
+              <input type="tel" class="join-us-input" name="tel" placeholder="Phone" required>
+              <select name="country" class="join-us-select" required>
+                <option value="Country" disabled selected>Country</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Estonia">Estonia</option>
+              </select>
+            </div>
+            <div class="form-right">
+              <textarea name="Comment" class="join-us-comment" placeholder="Comment"></textarea>
+            </div>
+          </div>
+          <div class="form-bottom flex">
+            <div class="form-wrapper flex">
+              <button class="btn btn-reset join-us-btn">Get Started</button>
+              <label class="join-us-label">
+                <input type="checkbox" class="join-us-checkbox" required>I agree with the <a href="#" class="join-us-link">user agreement</a>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
     </section>
   </main>
 
