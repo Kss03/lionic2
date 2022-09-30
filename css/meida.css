@@ -1,0 +1,147 @@
+@media (max-width: 1280px) {
+
+  .join-us__form .form__top {
+    margin-bottom: 19px;
+  }
+
+  .join-us__form .form__input {
+    width: 100%;
+    margin-bottom: 19px;
+  }
+
+  .join-us__form .form__select {
+    width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer__left {
+    margin-bottom: var(--gap);
+  }
+}
+
+@media (max-width: 992px) {
+
+  :root {
+    --gap: 15px;
+  }
+
+  .header__btn {
+    width: 120px;
+    height: 40px;
+    padding: 10px 20px;
+    margin-right: 7px;
+  }
+
+  .header__nav .nav__list {
+    display: none;
+  }
+
+  .header__burger {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border: 1px solid currentColor;
+    border-radius: 3px;
+    color: #3172B9;
+  }
+
+  .header__span {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    right: 25%;
+  }
+
+  .header__span:nth-child(1) {
+    top: 13px;
+  }
+
+  .header__span:nth-child(2) {
+    top: 50%;
+  }
+
+  .header__span:nth-child(3) {
+    bottom: 11px;
+  }
+
+  .hero__content {
+    width: 75%;
+  }
+  .join-us__form {
+    padding: 0;
+  }
+
+  .services__item {
+    padding: calc(var(--gap) * 2) var(--gap);
+  }
+  
+}
+
+@media (max-width: 768px) {
+
+  .section-offset {
+    padding-top: 44px;
+    padding-bottom: 80px;
+}
+
+  .services__list {
+    flex-wrap: wrap;
+  }
+
+  .services__item {
+    width: calc((100% - var(--gap)) / 2);
+    margin-bottom: var(--gap);
+  }
+
+  .services__item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .articles__item {
+    width: 100%;
+  }
+
+  .articles__item:not(:nth-child(2n)) {
+    margin-right: 0;
+}
+
+  .articles__item:last-child {
+    margin-bottom: 0;
+}
+
+  .clients__list {
+    flex-wrap: wrap;
+  }
+
+  .clients__item {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .clients__item:not(:last-child) {
+    margin-bottom: var(--gap);
+    margin-right: 0;
+  }
+
+  .clients__user {
+    padding-top: 18px;
+  }
+
+  .contacts__title {
+    margin-bottom: 55px;
+  }
+
+  .footer__nav .nav__list {
+    flex-wrap: wrap;
+  }
+
+  .footer__nav .nav__item {
+    margin-bottom: var(--gap);
+  }
+}
+
