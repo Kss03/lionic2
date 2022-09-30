@@ -58,15 +58,15 @@
   }
 
   .header__span:nth-child(1) {
-    top: 13px;
+    top: 10px;
   }
 
   .header__span:nth-child(2) {
-    top: 50%;
+    top: calc(48.5%);
   }
 
   .header__span:nth-child(3) {
-    bottom: 11px;
+    bottom: 10px;
   }
 
   .hero__content {
@@ -87,7 +87,7 @@
   .hero__content {
     width: 90%;
   }
-  
+
   .hero__descr {
     width: 100%;
   }
@@ -153,3 +153,6 @@
   }
 }
 
+@media (max-width: 460px) {
+  
+}
