@@ -167,7 +167,7 @@ body {
   margin-right: 52px;
 }
 
-.nav__link {
+.header__nav .nav__link {
   position: relative;
   font-weight: 600;
   font-size: 15px;
