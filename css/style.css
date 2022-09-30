@@ -592,6 +592,10 @@ body {
   text-align: center;
 }
 
+.join-us__form .form__top {
+  margin-bottom: 19px;
+}
+
 .form__left {
   width: 49%;
   margin-right: 19px;
