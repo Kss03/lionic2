@@ -35,6 +35,9 @@
     margin-right: 7px;
   }
 
+  .display--block {
+    overflow: hidden;
+  }
 
 
   .header__nav {
